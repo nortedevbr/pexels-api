@@ -1,0 +1,26 @@
+{
+  "name": "nortedevbr/pexels-api",
+  "description": "Acesso público ao conteúdo da biblioteca do Pexels, incluindo fotos e vídeos",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Nortedevbr\\PexelsApi\\": "src/"
+    },
+    "files": [
+      "./src/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Alessandro P Souza",
+      "email": "alessandro.souza@norte.dev.br",
+      "homepage": "https://instagram.com/alessandrodesign"
+    }
+  ],
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "vlucas/phpdotenv": "v5.6.0"
+  }
+}
